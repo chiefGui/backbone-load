@@ -6,7 +6,7 @@ If you need to load stuff when window loads, this is the way to go. *AMD ready.*
 
 Basically, I created this piece of code just to solve a problem that I had
 with [Masonry](http://masonry.desandro.com/) and Backbone. I hope it can
-be useful for you, too.
+be useful to you, too.
 
 ### Requirements
 
@@ -16,7 +16,7 @@ be useful for you, too.
 
 ### Download
 
-You just need to pick the plug-in on [`/js/`](https://github.com/chiefGui/backbone-load/tree/master/js)'s' folder and place it
+You just need to pick the plug-in on [`/js/`](https://github.com/chiefGui/backbone-load/tree/master/js)'s folder and place it
 onto your dependency/vendor/js' folder.
 
 ### Installation
