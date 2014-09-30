@@ -1,6 +1,6 @@
 # Backbone-Load.js
 
-If you need to load stuff when window loads, this is the way to go.
+If you need to load stuff when window loads, this is the way to go. *AMD ready.*
 
 ### Motivation
 
@@ -16,12 +16,12 @@ be useful for you, too.
 
 ### Download
 
-You just need the file on `/js/backbone-load.js/", or, of course, its minified
-version.
+You just need to pick the plug-in on [`/js/`](https://github.com/chiefGui/backbone-load/tree/master/js)'s' folder and place it
+onto your dependency/vendor/js' folder.
 
 ### Installation
 
-On your markup, just after Underscore.js/Backbone.js calls:
+On your markup, just after Underscore.js/Backbone.js' calls:
 
 `<script type="text/javascript" src="/path/to/backbone-load.js">`
 
@@ -47,14 +47,13 @@ need to call its parameter, such as:
     alert(w); // Window will be the output
   }
   // ...
-});
 ```
 
 Sounds sweet, huh?
 
 ### Tests
 
-To perform your tests, feel free to do it through `/tests/SpecRunner.html`,
+To perform your tests, feel free to do it through [`/tests/SpecRunner.html`](https://github.com/chiefGui/backbone-load/blob/master/tests/SpecRunner.html),
 exploding the file in your browser.
 
 ### Comprehension
