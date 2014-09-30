@@ -31,27 +31,23 @@ To use Backbone-Load, you don't need to be a NASA's engineer. Actually, it is
 really easy to use. See:
 
 ```js
-<script>
 var view = new Backbone.View.extend({
   load: function () {
     alert('hello!');
   }
 });
-</script>
 ```
 
 If you want to access the window's property inside load's scope, you just
 need to call its parameter, such as:
 
 ```js
-<script>
   // ...
   load: function (w) {
     alert(w); // Window will be the output
   }
   // ...
 });
-</script>
 ```
 
 Sounds sweet, huh?
