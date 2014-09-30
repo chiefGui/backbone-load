@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Backbone Load</title>
+</head>
+<body>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/backbone/node_modules/underscore/underscore.js"></script>
+  <script src="node_modules/backbone/backbone-min.js"></script>
+  <script src="js/backbone-load.js"></script>
+  <script>
+    var v = Backbone.View.extend({
+      load: function (x) {
+        console.log(x);
+      }
+    });
+
+    new v;
+  </script>
+</body>
+</html>

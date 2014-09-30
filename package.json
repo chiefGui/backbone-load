@@ -1,0 +1,28 @@
+{
+  "name": "backbone-load",
+  "version": "0.0.1",
+  "description": "Load bubbles on Backbone",
+  "main": "index.html",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "jasmine-node": "^1.14.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiefGui/backbone-load"
+  },
+  "keywords": [
+    "backbone",
+    "load",
+    "bubble",
+    "global"
+  ],
+  "author": "Guilherme Oderdenge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiefGui/backbone-load/issues"
+  },
+  "homepage": "https://github.com/chiefGui/backbone-load"
+}
