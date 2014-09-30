@@ -25,6 +25,10 @@ On your markup, just after Underscore.js/Backbone.js' calls:
 
 `<script type="text/javascript" src="/path/to/backbone-load.js">`
 
+In the case you have cloned this repository, please, shout via command line:
+
+`npm install`
+
 ### Usage
 
 To use Backbone-Load, you don't need to be a NASA's engineer. Actually, it is
